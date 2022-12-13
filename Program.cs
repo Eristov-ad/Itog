@@ -23,10 +23,9 @@ namespace ConsoleApp8
 
        for (int i = 0; i <= words.Count(); i++)
         if (words[i].Length > 3)
-            Console.Write(result);
+          Console.Write(words[i] + " ");
         Console.ReadKey();
-      }
-     
   }
   }
+}
 }
